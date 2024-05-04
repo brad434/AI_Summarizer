@@ -10,9 +10,9 @@
   width: 100vw;
   min-height: 100vh;
   position: fixed;
-  /* display: flex;
-  justify-content: center; */
-  /* padding: 120px 24px 160px 24px; */
+  display: flex;
+  justify-content: center;
+  padding: 120px 24px 160px 24px;
   pointer-events: none;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .gradient {
-  height: 100%;
+  height: fit-content;
   z-index: 3;
   width: 100%;
   max-width: 640px;
